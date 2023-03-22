@@ -1,0 +1,70 @@
+.solar_design {
+    font-family: 'Poppins';
+    font-size: 32px !important;
+    font-weight: 700 !important;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.solar_estimate {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #727272;
+}
+
+.navbar {
+    box-sizing: border-box;
+    position: absolute;
+    width: 814px;
+    height: 60px;
+    /* left: 300px; */
+    top: 110px;
+    background: white;
+    border: 1px solid #E6E6E6;
+    border-radius: 40px;
+}
+
+.navbarCircle {
+    box-sizing: border-box;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #18437F;
+    color: #18437F;
+    border-radius: 24px;
+    padding-left: 0px;
+    padding-top: 5px;
+    margin-left: -100px;
+    margin-top: -5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.upline {
+    position: absolute;
+    /* width: 1px; */
+    height: 41px;
+    /* margin-left: 55px; */
+    margin-top: -26px;
+    border: 1px solid #E6E6E6;
+    transform: rotate(-45deg);
+}
+
+
+.downline {
+    position: absolute;
+    /* width: 1px; */
+    height: 41px;
+    /* margin-left: 55px; */
+    margin-top: 3.5px;
+    border: 1px solid #E6E6E6;
+    transform: matrix(0.71, 0.71, 0.71, -0.71, 0, 0);
+}
